@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6fe4a45a-1118-4d27-bfa6-a8346d5212a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +178,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608809632063</updated>
       <workItem from="1608809634546" duration="669000" />
-      <workItem from="1608810322400" duration="3418000" />
+      <workItem from="1608810322400" duration="4570000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1608809935281</created>
@@ -207,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608812370268</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add options on register form. Update RegisteredUserController.php for get get and save correct data from register form.">
+      <created>1608814341183</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608814341183</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +239,8 @@
     <MESSAGE value="Updated .gitignore. NPM install and dev." />
     <MESSAGE value="laravel breeze install" />
     <MESSAGE value="add user_type in users table" />
-    <option name="LAST_COMMIT_MESSAGE" value="add user_type in users table" />
+    <MESSAGE value="Add options on register form. Update RegisteredUserController.php for get get and save correct data from register form." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add options on register form. Update RegisteredUserController.php for get get and save correct data from register form." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
