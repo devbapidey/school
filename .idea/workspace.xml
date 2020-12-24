@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fe4a45a-1118-4d27-bfa6-a8346d5212a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_24_120345_drop_name_add_user_type_in_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/school.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/school.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +177,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608809632063</updated>
       <workItem from="1608809634546" duration="669000" />
-      <workItem from="1608810322400" duration="1784000" />
+      <workItem from="1608810322400" duration="3418000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1608809935281</created>
@@ -201,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608810575565</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add user_type in users table">
+      <created>1608812370268</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608812370268</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +230,8 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Updated .gitignore. NPM install and dev." />
     <MESSAGE value="laravel breeze install" />
-    <option name="LAST_COMMIT_MESSAGE" value="laravel breeze install" />
+    <MESSAGE value="add user_type in users table" />
+    <option name="LAST_COMMIT_MESSAGE" value="add user_type in users table" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

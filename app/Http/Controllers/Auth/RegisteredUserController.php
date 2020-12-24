@@ -33,13 +33,13 @@ class RegisteredUserController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'name' => 'required|string|max:255',
+            'user_type' => 'required',
             'email' => 'required|string|email|max:255|unique:users',
-            'password' => 'required|string|confirmed|min:8',
+            'password' => 'required|string|confirmed|min:8', // @Todo Strong validation needed for more strong password
         ]);
 
         Auth::login($user = User::create([
-            'name' => $request->name,
+            'user_type' => $request->user_type,  // @ToDo Change row value to model when model is created to secure database from production
             'email' => $request->email,
             'password' => Hash::make($request->password),
         ]));

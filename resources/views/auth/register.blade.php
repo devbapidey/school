@@ -14,9 +14,13 @@
 
             <!-- Name -->
             <div>
-                <x-label for="name" :value="__('Name')" />
+                <x-label for="user_type" :value="__('Select your account type')" />
 
-                <x-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus />
+{{--                <x-input id="user_type" class="block mt-1 w-full" type="text" name="user_type" :value="old('user_type')" required autofocus />--}}
+                <select name="user_type" id="user_type" class="rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                </select>
             </div>
 
             <!-- Email Address -->
