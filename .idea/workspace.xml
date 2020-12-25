@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fe4a45a-1118-4d27-bfa6-a8346d5212a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_24_171205_add_user_id_col_in_students_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Student/StudentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Student/StudentProfileController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Student.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/navigation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/navigation.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,8 +162,13 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Student" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -182,7 +186,13 @@
       <updated>1608809632063</updated>
       <workItem from="1608809634546" duration="669000" />
       <workItem from="1608810322400" duration="8713000" />
-      <workItem from="1608828985388" duration="1114000" />
+      <workItem from="1608828985388" duration="1970000" />
+      <workItem from="1608872375503" duration="1594000" />
+      <workItem from="1608887098326" duration="1099000" />
+      <workItem from="1608889820888" duration="598000" />
+      <workItem from="1608898231183" duration="2077000" />
+      <workItem from="1608900328316" duration="428000" />
+      <workItem from="1608900773610" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1608809935281</created>
@@ -233,7 +243,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608816905893</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added user_id in students table. Made User-&gt;Student hasOne relationship.">
+      <created>1608830270417</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608830270417</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Must verify email in &amp; Remove dynamic ::class and use it as a string.">
+      <created>1608873304501</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608873304501</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +285,9 @@
     <MESSAGE value="Add options on register form. Update RegisteredUserController.php for get get and save correct data from register form." />
     <MESSAGE value="Change default selected option in HTML &amp; Fillable in User Model." />
     <MESSAGE value="Created Student Model, Controller, Migration. Migration ready others untouched." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Student Model, Controller, Migration. Migration ready others untouched." />
+    <MESSAGE value="Added user_id in students table. Made User-&gt;Student hasOne relationship." />
+    <MESSAGE value="Must verify email in &amp; Remove dynamic ::class and use it as a string." />
+    <option name="LAST_COMMIT_MESSAGE" value="Must verify email in &amp; Remove dynamic ::class and use it as a string." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -22,3 +22,9 @@ Route::get('/dashboard', function () {
 })->middleware(['auth'])->name('dashboard');
 
 require __DIR__.'/auth.php';
+
+Route::get('student',App\Http\Controllers\Student\StudentController::class)->name('student');
+
+Route::middleware('auth')->prefix('student')->group(function (){
+    Route::resource('profile', \App\Http\Controllers\Student\StudentProfileController::class);
+});
