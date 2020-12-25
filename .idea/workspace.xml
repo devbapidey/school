@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fe4a45a-1118-4d27-bfa6-a8346d5212a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Student/StudentController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Student/StudentProfileController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Student/StudentProfileController.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +188,7 @@
       <workItem from="1608889820888" duration="598000" />
       <workItem from="1608898231183" duration="2077000" />
       <workItem from="1608900328316" duration="428000" />
-      <workItem from="1608900773610" duration="598000" />
+      <workItem from="1608900773610" duration="954000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1608809935281</created>
@@ -257,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608873304501</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="We have Student/StudentController for showing basic student details. Student/StudentProfileController (currently resource, could be change) for student profile management.">
+      <created>1608901669842</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608901669842</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +290,8 @@
     <MESSAGE value="Created Student Model, Controller, Migration. Migration ready others untouched." />
     <MESSAGE value="Added user_id in students table. Made User-&gt;Student hasOne relationship." />
     <MESSAGE value="Must verify email in &amp; Remove dynamic ::class and use it as a string." />
-    <option name="LAST_COMMIT_MESSAGE" value="Must verify email in &amp; Remove dynamic ::class and use it as a string." />
+    <MESSAGE value="We have Student/StudentController for showing basic student details. Student/StudentProfileController (currently resource, could be change) for student profile management." />
+    <option name="LAST_COMMIT_MESSAGE" value="We have Student/StudentController for showing basic student details. Student/StudentProfileController (currently resource, could be change) for student profile management." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
