@@ -42,6 +42,7 @@ class User extends Authenticatable implements MustVerifyEmail
     ];
 
     public function userType(){
-        return $this->hasOne( "$this->attributes['user_type']" );
+        $usertype = ucfirst($this->value('user_type'));
+        return $this->hasOne("App\Models\\$usertype");
     }
 }

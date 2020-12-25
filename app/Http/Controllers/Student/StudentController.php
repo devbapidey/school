@@ -13,8 +13,16 @@ class StudentController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function __invoke(Request $request)
+    public function __invoke(/*Request $request*/)
     {
-        return 'Hello';
+        $user_type = auth()->user()->value('user_type');
+//        dd($user_type);
+//        dd(auth()->user()->userType()/*->value('email')*/);
+        if($user_type == 'teacher'){
+            return redirect()->route('teacher');
+        }elseif ($user_type == 'student'){
+//            return 'Hello';
+            return view('student.student');
+        }
     }
 }
