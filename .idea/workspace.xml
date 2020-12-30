@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fe4a45a-1118-4d27-bfa6-a8346d5212a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/StudentProfileRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Rules/OnlyString.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/student/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/school.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/school.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_ide_helper.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Student/StudentProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Student/StudentProfileController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Student.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/student/__createStudent.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/student/__createStudent.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/student/student.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/student/student.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -215,7 +209,7 @@
       <workItem from="1609314827446" duration="47000" />
       <workItem from="1609314915665" duration="625000" />
       <workItem from="1609321205210" duration="592000" />
-      <workItem from="1609322101977" duration="5927000" />
+      <workItem from="1609322101977" duration="9158000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1608809935281</created>
@@ -308,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608994375409</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Remove resource route &amp; add create and store url. Student Profile Request validation. Student Profile Controller. Mutator in laravel to set username. New validation in laravel.">
+      <created>1609329003244</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1609329003244</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +349,8 @@
     <MESSAGE value="workspace.xml ignored, StudentProfileController.php is now a resource controller." />
     <MESSAGE value="Changed students table's middle_name nullable. Added user_verified and user_verified_at in users table. A new way to define relationship with our specific user_type. Added middleware in student route. Added view in student route via controller." />
     <MESSAGE value="StudentController.php send user as userData. Basic HTML of student home. A form for create or edit Student table. user_id is unique for students table." />
-    <option name="LAST_COMMIT_MESSAGE" value="StudentController.php send user as userData. Basic HTML of student home. A form for create or edit Student table. user_id is unique for students table." />
+    <MESSAGE value="Remove resource route &amp; add create and store url. Student Profile Request validation. Student Profile Controller. Mutator in laravel to set username. New validation in laravel." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove resource route &amp; add create and store url. Student Profile Request validation. Student Profile Controller. Mutator in laravel to set username. New validation in laravel." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
