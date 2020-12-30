@@ -26,5 +26,7 @@ require __DIR__.'/auth.php';
 Route::get('student',App\Http\Controllers\Student\StudentController::class)->name('student')->middleware('auth');
 
 Route::middleware('auth')->prefix('student')->group(function (){
-    Route::resource('profile', \App\Http\Controllers\Student\StudentProfileController::class);
+//    Route::resource('profile', \App\Http\Controllers\Student\StudentProfileController::class);
+    Route::get('/profile/create', [\App\Http\Controllers\Student\StudentProfileController::class, 'create'])->name('profile.create');
+    Route::post('/profile/store', [\App\Http\Controllers\Student\StudentProfileController::class, 'store'])->name('profile.store');
 });

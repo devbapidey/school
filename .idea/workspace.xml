@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fe4a45a-1118-4d27-bfa6-a8346d5212a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_25_180110_change_user_id_to_unique_in_students_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/student/__createStudent.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/StudentProfileRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Rules/OnlyString.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/student/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Student/StudentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Student/StudentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_ide_helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Student/StudentProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Student/StudentProfileController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/student/__createStudent.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/student/__createStudent.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/student/student.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/student/student.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +165,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.env&#10;/home/bapi/Desktop/school/vendor/laravel/framework/src/Illuminate/Http/Request.php&#10;/home/bapi/Desktop/school/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithInput.php" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -195,7 +201,21 @@
       <workItem from="1608900773610" duration="6817000" />
       <workItem from="1608912382682" duration="2912000" />
       <workItem from="1608916158941" duration="5373000" />
-      <workItem from="1608989155464" duration="4595000" />
+      <workItem from="1608989155464" duration="6590000" />
+      <workItem from="1608995820013" duration="3450000" />
+      <workItem from="1609073806676" duration="3310000" />
+      <workItem from="1609214153957" duration="491000" />
+      <workItem from="1609215396934" duration="10116000" />
+      <workItem from="1609228783869" duration="1285000" />
+      <workItem from="1609236616159" duration="1246000" />
+      <workItem from="1609242560464" duration="407000" />
+      <workItem from="1609243467380" duration="946000" />
+      <workItem from="1609244480296" duration="2184000" />
+      <workItem from="1609248236503" duration="3348000" />
+      <workItem from="1609314827446" duration="47000" />
+      <workItem from="1609314915665" duration="625000" />
+      <workItem from="1609321205210" duration="592000" />
+      <workItem from="1609322101977" duration="5927000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1608809935281</created>
@@ -281,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608908982000</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="StudentController.php send user as userData. Basic HTML of student home. A form for create or edit Student table. user_id is unique for students table.">
+      <created>1608994375409</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608994375409</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +347,8 @@
     <MESSAGE value="We have Student/StudentController for showing basic student details. Student/StudentProfileController (currently resource, could be change) for student profile management." />
     <MESSAGE value="workspace.xml ignored, StudentProfileController.php is now a resource controller." />
     <MESSAGE value="Changed students table's middle_name nullable. Added user_verified and user_verified_at in users table. A new way to define relationship with our specific user_type. Added middleware in student route. Added view in student route via controller." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed students table's middle_name nullable. Added user_verified and user_verified_at in users table. A new way to define relationship with our specific user_type. Added middleware in student route. Added view in student route via controller." />
+    <MESSAGE value="StudentController.php send user as userData. Basic HTML of student home. A form for create or edit Student table. user_id is unique for students table." />
+    <option name="LAST_COMMIT_MESSAGE" value="StudentController.php send user as userData. Basic HTML of student home. A form for create or edit Student table. user_id is unique for students table." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

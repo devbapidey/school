@@ -18,11 +18,13 @@
                     <div class="">Welcome {{ $userData->email }}</div>
 {{--                    <div class="">{{ dd($userData->userType) }}</div>--}}
                     @if(!$userData->userType)
-                        <div class="">Create Your Profile</div>
-                        @include('student.__createStudent')
+                        <div class="">
+                            <a href="{{ route('profile.create') }}">Create Your Profile</a>
+                        </div>
+{{--                        @include('student.__createStudent')--}}
                     @elseif($userData->userType && !$userData->user_verified)
                         <div class="">Edit Your Profile</div>
-                        @include('student.__createStudent')
+{{--                        @include('student.__createStudent')--}}
                     @else
                         <div class="">This is your profile, and this way we will show it.</div>
                     @endif
